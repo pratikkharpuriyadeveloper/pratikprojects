@@ -2,24 +2,201 @@
 <html>
 
 <head>
-    <tittle>Home</tittle>
+    <style>
+        * {
+            text-decoration: none;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            font-family: cursive;
+            text-shadow: 1px 2px;
+            text-decoration: solid;
+            border: solid;
+            background-color: lightcoral;
+        }
+
+
+        .navigation {
+            background-color: lightskyblue;
+            height: 10vh;
+            width: 25vw;
+            text-align: center;
+            font-size: 20PX;
+            font-family: cursive;
+            position: sticky;
+
+        }
+
+        .box-one {
+            background-color: #BBE2EC;
+            height: 50vh;
+            width: 100vw;
+        }
+
+        .box-two {
+            background-color: #ECCA9C;
+            height: 50vh;
+            width: 100vw;
+        }
+
+        .box-three {
+            background-color: lightgoldenrodyellow;
+            height: 50vh;
+            width: 100vw
+        }
+
+        .box-four {
+            background-color: #ACE2E1;
+            height: 50vh;                                       
+            width: 100vw
+        }
+
+        a {
+            font-size: 20px;
+        }
+
+        html {
+
+            scroll-behavior: smooth;
+        }
+    </style>
 
 </head>
 
-<body>
-
-    <h1>My Project</h1>
-
-    <hr />
-
-    <hr />
-
-    <br />
-    <br />
-
-    <a href="./indexsecond.html">click here</a>
+<body style="margin: 1px;">
+    <table>
 
 
+        <h1>Welcome to My Home page</h1>
+
+
+
+
+
+        <!--Row One -->
+        <tr class="row-one">
+            <!-- First Column -->
+            <td>
+                <div class="navigation"><a href="#Section-one">ABOUT</a>&nbsp &nbsp &nbsp &nbsp</div>
+            </td>
+            <!-- Second Second -->
+            <td>
+                <div class="navigation"><a href="#Section-two">PROJECTS</a>&nbsp &nbsp &nbsp &nbsp</div>
+            </td>
+            <!-- Third Column -->
+            <td>
+                <div class="navigation"><a href="#Section-four">EDUCATION</a>&nbsp &nbsp &nbsp &nbsp</div>
+            </td>
+            <!-- Fourth Column -->
+            <td>
+                <div class="navigation"><a href="#Section-four">EXPERENCE</a>&nbsp &nbsp &nbsp &nbsp</div>
+            </td>
+        </tr>
+
+        <!-- Row Two -->
+        <tr>
+            <td class="box-one" id="Section-one" colspan="4">
+
+                <div>
+                    <h2>Pratik Kharpuriya</h2><img src="./emojiforhomepage.jpeg" height="200px" width="150px"
+                        style="border-radius: 50%; margin-left: 1100px;">
+                    <h3>Date of Birth : 08/09/2002</h3>
+                    <h3>Address : At.Dongargaon,Post.Katol,Tah.Katol,Dist.Nagpur,Pincode-441302</h3>
+                    <h3>Mobile No : 9209028505</h3>
+                    <h3>Email : pratikkharpuriya75@gmail.com</h3>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Row Three -->
+        <tr>
+            <td class="box-two" id="Section-two" colspan="4">
+                <button><a href="./myprojects.html">My Projects</a></button>
+                <img src="./projects.jpg" height="200px" width="250px"
+                    style="border-radius: 900%; margin-left:900px;" />
+            </td>
+        </tr>
+
+        <!-- Row Four -->
+        <tr>
+            <td class="box-three" id="Section-three" colspan="4">
+                <div>
+                    <ul>
+                        <h3>
+                            <li>Educations
+                        </h3>
+                        </li>
+                    </ul>
+
+                    <ol>
+                    <h5>
+                        
+                            <li>10th passed in 2018 at Banarasidas Ruiya High School
+                    </h5>
+                    </li>
+                    <h5>
+                        <li>12th passed in 2020 at Nabira Mahavidyalaya Katol
+                    </h5>
+                    </li>
+                    <h5>
+                        <li>ITI passed in 2022 at Goverment ITI Katol
+                    </h5>
+                    </li>
+                    </ol>
+                    <img src="./education.jpg" width="250px" height="200px"
+                        style="border-radius: 400%;  margin-left: 1000px; margin-bottom: 10px;">
+                </div>
+
+
+            </td>
+        </tr>
+
+        <!-- Row Five -->
+        <tr>
+            <td class="box-four" id="Section-four" colspan="4">
+                <div>
+                    <ul>
+                    <h3><li>Understanding</h3></li></ul>
+                    <ol>
+                    <h5><li>HTML understanding 70%</li></h5>
+                    <h5><li>CSS understanding 55%</li></h5>
+                    <h5><li>JAVA understanding 0%</li></h5></ol>
+                    <img src="./understanding.jpg" height="200px" width="250px"
+                        style="border-radius: 900%; margin-left: 1000px;">
+
+                </div>
+            </td>
+        </tr>
+
+
+
+        <!-- Row Six -->
+        <tr>
+
+            <td class="navigation"><a href="https://join.skype.com/invite/rTO3utN9evJU">SKYPE</a>
+                <img src="./skype.jpg" height="50px" width="70px">
+            </td>
+
+            <td class="navigation"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">E-MAIL</a><img
+                    src="./gmail.jpg" height="50px" width="70px" /></td>
+
+
+            <td class="navigation"><a href="https://github.com/pratikkharpuriyadeveloper/pratikprojects">GIT-HUB</a><img
+                    src="./github.jpg" height="50px" width="70px" />
+            </td>
+
+
+            <td class="navigation"><a
+                    href="05:57
+                https://www.linkedin.com/in/pratik-kharpuriya-545369266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LINKDIN</a><img
+                    src="./linkdin.jpg" height="50px" width="60px " />
+                nmm </td>
+
+
+        </tr>
+    </table>
 
 
 </body>

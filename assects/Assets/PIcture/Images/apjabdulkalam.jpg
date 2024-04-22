@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--  -->
+<html>
+    <!--  -->
+<head>
+    <!--  -->
+    <tittle>My Top Personalities </tittle>
+    <!--  -->
+</head>
+<!--  -->
+<body> 
+<!--  -->
+
+    <ol>
+        <!--  -->
+<h1>A.P.j.Abdul Kalam</h1>
+<!--  -->
+<br/>
+<!--  -->
+<img src="../assects/apjabdulkalam.html" height="250px" width="300px"/>
+<!--  -->
+    <P>vul Pakir Jainulabdeen Abdul Kalam BR  was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007. He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO) and was intimately involved in India's civilian space programme and military missile development efforts.[1] He thus came to be known as the Missile Man of India for his work on the development of ballistic missile and launch vehicle technology.[2][3][4] He also played a pivotal organisational, technical, and political role in India's Pokhran-II nuclear tests in 1998, the first since the original nuclear test by India in 1974.[5]</P>
+<hr>
+<!--  -->
+<img src="../assects/motherteresa.jpg" height="300" width="200px"/>
+<!--  -->
+<h2>Mother Teresa</h2>
+<!--  -->
+<p>Mother Teresa founded Missionaries of Charity, a religious congregation, which grew to have over 4,500 nuns across 133 countries as of 2012.[6] The congregation manages homes for people who are dying of HIV/AIDS, leprosy, and tuberculosis. The congregation also runs soup kitchens, dispensaries, mobile clinics, children's and family counselling programmes, as well as orphanages and schools. Members take vows of chastity, poverty, and obedience and also profess a fourth vow: to give "wholehearted free service to the poorest of the poor."[7]</p>
+</ol>
+<!--  -->
+<br/>
+<!--  -->
+
+</ol>
+</body>
+</html>
