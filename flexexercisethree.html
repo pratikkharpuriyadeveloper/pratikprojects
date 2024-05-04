@@ -3,85 +3,102 @@
 
 <head>
     <style>
+        body {
+            margin: 0;
+        }
+
         .main-container {
-            background-color: lightcoral;
+            background-color: aqua;
             height: 100vh;
             width: 100vw;
             display: flex;
-
-
+            flex-direction: row;
         }
 
         .child-one {
+            background-color:#D9B650;
             height: 100vh;
             width: 40vw;
-            background-color: aqua;
         }
 
         .child-two {
-            background-color: chocolate;
+            background-color:#A79277;
             height: 100vh;
             width: 60vw;
-            display: flex;
-            flex-direction: column;
         }
 
-        .child-three-1 {
-            background-color: lightgreen;
-            height: 40vh;
-            width: 60vw;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .child-three-2 {
-            background-color: limegreen;
+        .main-two {
+            background-color: red;
             height: 60vh;
-            width: 60vw;
             display: flex;
             flex-direction: column;
+        }
+
+        .first-section{
+            background-color:#FA7070;
+            height: 40vh;
+            width: 106vh;
+        }
+
+        .second-section{
+            background-color:#FFEAE3;
+            height: 60%;
+            width: 100%;
+            display: flex;
+        }
+
+        .first-box{
+            background-color: aqua;
+            height: 20vh;
+            width: 30vw;
+        }
+        .second-box{
+            background-color: #FFB1B1;
+            height: 20vh;
+            width: 30vw;
+        }
+        .third-section{
+            background-color: rgb(12, 117, 45);
+            height: 20vh;
+            width: 30vw;
+        }
+
+        .fourth-box{
+            background-color: #41B06E;
+            height: 30vh;
+            width: 30vw;
+        }
+
+        .fifth-section{
+            background-color: #874CCC;
+            height: 30vh;
+            width: 30vw;
         }
     </style>
 </head>
 
-<body style="margin: 0px;">
-    <!-- main -->
+<body>
+    <!-- first section -->
+    <!-- main division -->
     <div class="main-container">
-        <!-- row-one -->
+        <!-- first child -->
         <div class="child-one"></div>
-
-        <!-- row-two -->
         <div class="child-two">
-
-            <div class="child-two-one">
-
-                <div class="child-three-1">
-                    <div class="child-three-2"></div>
-
-                </div>
-
-
-
-
-
+            <div class="first-section"></div>
+            <div class="second-section">
+                <div>
+                <div class="first-box"></div>
+                <div class="second-box"></div>
+                <div class="third-section"></div>
             </div>
-
+            <div>
+                <div class="fourth-box"></div>
+                <div class="fifth-section"></div>
+            </div>
+            </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
-
 </body>
 
 </html>

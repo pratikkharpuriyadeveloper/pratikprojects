@@ -3,54 +3,69 @@
 
 <head>
     <style>
-        * {
-            text-decoration: none;
+        body {
+            background-color: white;
+            height: 200vh;
+            width: 100vw;
+            margin-right: 10px;
+
         }
 
-        h1 {
+        .button {
+
             text-align: center;
-            font-size: 30px;
-            font-family: cursive;
-            text-shadow: 1px 2px;
-            text-decoration: solid;
-            border: solid;
-            background-color: lightcoral;
         }
 
+        .king {
+            background-color: #E1ACAC;
+            height: 100px;
+            width: 100%;
+            font-size: medium;
+            padding-top: 40px;
+            padding-top: 10px;
+            text-align: center;
+        }
 
         .navigation {
             background-color: lightskyblue;
             height: 10vh;
-            width: 25vw;
-            text-align: center;
-            font-size: 20PX;
-            font-family: cursive;
+            width: 100.8%;
+            font-size: 30PX;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             position: sticky;
-
+            text-align: center;
         }
 
         .box-one {
             background-color: #BBE2EC;
             height: 50vh;
-            width: 100vw;
+            width: 102.1%;
+            text-align: center;
+            font: 20px;
         }
 
         .box-two {
             background-color: #ECCA9C;
             height: 50vh;
-            width: 100vw;
+            width: 102.1%;
+            text-align: center;
+            font-size: medium;
         }
 
         .box-three {
-            background-color: lightgoldenrodyellow;
+            background-color: #E1ACAC;
             height: 50vh;
-            width: 100vw
+            width: 102.1%;
+            text-align: center;
+            font-size: larger;
         }
 
         .box-four {
             background-color: #ACE2E1;
-            height: 50vh;                                       
-            width: 100vw
+            height: 50vh;
+            width: 102.1%;
+            text-align: center;
+            font-size: larger;
         }
 
         a {
@@ -65,12 +80,12 @@
 
 </head>
 
-<body style="margin: 1px;">
+<body style="margin: 0px;">
     <table>
 
-
-        <h1>Welcome to My Home page</h1>
-
+        <div class="king">
+            <h1>Welcome to My Home page</h1>
+        </div>
 
 
 
@@ -91,7 +106,7 @@
             </td>
             <!-- Fourth Column -->
             <td>
-                <div class="navigation"><a href="#Section-four">EXPERENCE</a>&nbsp &nbsp &nbsp &nbsp</div>
+                <div class="navigation"><a href="#Section-four">UNDERSTANDING</a>&nbsp &nbsp &nbsp &nbsp</div>
             </td>
         </tr>
 
@@ -100,8 +115,8 @@
             <td class="box-one" id="Section-one" colspan="4">
 
                 <div>
-                    <h2>Pratik Kharpuriya</h2><img src="./emojiforhomepage.jpeg" height="200px" width="150px"
-                        style="border-radius: 50%; margin-left: 1100px;">
+                    <h2>Name-Pratik Kharpuriya</h2><img src="./emojiforhomepage.jpeg" height="200px" width="150px"
+                        style="border-radius: 50%; margin-left: 1200px;">
                     <h3>Date of Birth : 08/09/2002</h3>
                     <h3>Address : At.Dongargaon,Post.Katol,Tah.Katol,Dist.Nagpur,Pincode-441302</h3>
                     <h3>Mobile No : 9209028505</h3>
@@ -123,28 +138,25 @@
         <tr>
             <td class="box-three" id="Section-three" colspan="4">
                 <div>
-                    <ul>
-                        <h3>
-                            <li>Educations
-                        </h3>
-                        </li>
-                    </ul>
 
-                    <ol>
+                    <h3>
+                        * Educations
+                    </h3>
+
                     <h5>
-                        
-                            <li>10th passed in 2018 at Banarasidas Ruiya High School
+
+                        1.10th passed in 2018 at Banarasidas Ruiya High School
                     </h5>
-                    </li>
+
                     <h5>
-                        <li>12th passed in 2020 at Nabira Mahavidyalaya Katol
+                        2.12th passed in 2020 at Nabira Mahavidyalaya Katol
                     </h5>
-                    </li>
+
                     <h5>
-                        <li>ITI passed in 2022 at Goverment ITI Katol
+                        3.ITI passed in 2022 at Goverment ITI Katol
                     </h5>
-                    </li>
-                    </ol>
+
+
                     <img src="./education.jpg" width="250px" height="200px"
                         style="border-radius: 400%;  margin-left: 1000px; margin-bottom: 10px;">
                 </div>
@@ -157,12 +169,20 @@
         <tr>
             <td class="box-four" id="Section-four" colspan="4">
                 <div>
-                    <ul>
-                    <h3><li>Understanding</h3></li></ul>
-                    <ol>
-                    <h5><li>HTML understanding 70%</li></h5>
-                    <h5><li>CSS understanding 55%</li></h5>
-                    <h5><li>JAVA understanding 0%</li></h5></ol>
+
+                    <h3>
+                        * Understanding
+                    </h3>
+                    <h5>
+                        1.HTML understanding 70%
+                    </h5>
+                    <h5>
+                        2.CSS understanding 55%
+                    </h5>
+                    <h5>
+                        3.JAVA understanding 0%
+                    </h5>
+
                     <img src="./understanding.jpg" height="200px" width="250px"
                         style="border-radius: 900%; margin-left: 1000px;">
 
@@ -176,23 +196,23 @@
         <tr>
 
             <td class="navigation"><a href="https://join.skype.com/invite/rTO3utN9evJU">SKYPE</a>
-                <img src="./skype.jpg" height="50px" width="70px">
+                <img src="./skype.jpg" height="50px" width="70px" style="border-radius: 200px;">
             </td>
 
             <td class="navigation"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">E-MAIL</a><img
-                    src="./gmail.jpg" height="50px" width="70px" /></td>
+                    src="./gmail.jpg" height="50px" width="70px" style="border-radius: 200px;" /></td>
 
 
             <td class="navigation"><a href="https://github.com/pratikkharpuriyadeveloper/pratikprojects">GIT-HUB</a><img
-                    src="./github.jpg" height="50px" width="70px" />
+                    src="./github.jpg" height="50px" width="70px" style="border-radius: 200px;" />
             </td>
 
 
             <td class="navigation"><a
                     href="05:57
                 https://www.linkedin.com/in/pratik-kharpuriya-545369266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LINKDIN</a><img
-                    src="./linkdin.jpg" height="50px" width="60px " />
-                nmm </td>
+                    src="./linkdin.jpg" height="50px" width="60px " style="border-radius: 200px;" />
+            </td>
 
 
         </tr>
